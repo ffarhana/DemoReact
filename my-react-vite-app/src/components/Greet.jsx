@@ -11,3 +11,8 @@ const Greet = () => {
 export default Greet;
 
 //this is functional component
+/*more feature rich 
+maintain their own private data-state
+complex UI logic
+provide lifecycle hooks
+stateful/smart/container*/

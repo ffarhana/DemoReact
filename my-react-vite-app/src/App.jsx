@@ -13,8 +13,22 @@ function App() {
     <>
     <Greet></Greet>
     <Welcome name="React"></Welcome>
+
     </>
   )
 }
 
+const StateTutorial = () => {
+  const [counter, setCounter] = useState(0);
+
+  const incrementCounter = () => {
+    setCounter(counter + 1);
+  }
+
+  return (
+    <div>
+      {counter} <button onClick={incrementCounter}>Increment</button>
+    </div>
+  )
+}
 export default App
